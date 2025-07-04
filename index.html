@@ -25,7 +25,7 @@
 							<li><a href="#intro" class="active">About Me</a></li>
 							<li><a href="#skills">My Skills</a></li>
 							<li><a href="#values">Values</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="#cta">Contact Me</a></li>
 						</ul>
 					</nav>
 
@@ -127,7 +127,7 @@
 								</header>
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="generic.html" class="button primary">View Resume</a></li>
+										<li><a href="https://docs.google.com/document/d/1vuMxiodlIY8yRj_LvaaSnnKJqJoPRBSyQd2o0Pi-Pyo/edit?usp=sharing" class="button primary">View Resume</a></li>
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
 								</footer>
@@ -145,7 +145,7 @@
 							</ul>
 						</section>
 						<section>
-							<h2>Etiam feugiat</h2>
+							<h2>Contact Info</h2>
 							<dl class="alt">
 								<dt>Phone</dt>
 								<dd>(+234) 813-525-9733</dd>
@@ -159,7 +159,7 @@
 								<li><a href="https://www.instagram.com/talabitemi24" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
 							</ul>
 						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; <span id="year"></span></p>
 					</footer>
 
 			</div>
@@ -172,6 +172,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				document.getElementById("year").textContent = new Date().getFullYear();
+			</script>
 
 	</body>
 </html>
